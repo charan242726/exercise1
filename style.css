@@ -1,9 +1,164 @@
-.center
-{
-  text-align:center;
-   text-decoration:underline;
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Baloo Bhai 2", sans-serif;
 }
-body
-{
-  background-image:url("thumb.jpg")
+body{
+    background-image: url("img3.jpg");
+    /* background-color: black; */
+    
 }
+a{
+    color:white;
+    text-decoration: none;
+}
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:25px 9%; 
+    /* background-color: slateblue; */
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index:100;
+}
+ul li{
+    list-style:none;
+    margin-left:35px;
+}
+ul{
+    display:flex;
+    
+    
+}
+.logo{
+    font-size:30px;
+    font-weight:700;
+}
+a{
+    font-size: 20px;
+    font-weight:500;
+    transition:0.5s;
+}
+li:hover a,
+li.active a{
+    color:#7cf03d;
+}
+.home{
+    /* display:flex; */
+    align-items:center;
+    height:100vh;
+    padding:60px 9% 0;
+    color:#fff;
+}
+.info h1{
+    padding:10px 0px 0px 0px;
+font-size:55px;
+}
+.info h2{
+    font-size: 32px;
+    margin-top:-10px;
+}
+.info p{
+    font-size:16px;
+    margin:10px 0 25px;
+}
+ .button{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    display: inline-block;
+    padding:10px 30px;
+    background-color: #7cf03d;
+    border:2px solid #7cf03d;
+    border-radius:40px;
+    box-shadow: 0 0 10px #7cf03d;
+    font-size: 16px;
+    color:#1f242d;
+    font-weight: 600;
+    transition:0.5s;
+    /* margin:22px; */
+}
+.btn:hover{
+    background-color: transparent;
+    color:#7cf03d;
+}
+.sci{
+    margin-left:20px;
+}
+.sci a{
+    display: inline-flex;
+    padding:8px;
+    border:2px solid #7cf03d;
+    border-radius:50%;
+    transition:0.5s;
+}
+.sci a:hover{
+    background-color: #7cf03d;
+    color:#1f242d;
+    box-shadow: 0 0 10px #7cf03d;
+}
+.img-box{
+    width:32vw;
+    height:32vw;
+    /* background-color: red; */
+    border-radius: 50%;
+    padding:5px;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    overflow: hidden; */
+}
+/* .img-box::before, */
+/* .img-box::after{
+    content:"";
+    position:absolute;
+    width:500px;
+    height:500px;
+    background: conic-gradient(transparent,#7cf03d) ; */
+
+/* img-item{
+width:100%;
+height:100%;
+background: #1e1a2a;
+border-radius: 50%; */
+/* position:relative;
+display:flex;
+justify-content: center;
+z-index:1;
+overflow:hidden; */
+
+/* img{
+    position:absolute;
+    display:black;
+    width:85%;
+    object-fit:cover;
+    top:30px;
+
+} */
+ .sci a img{
+    color:#fff;
+    background-color: rgba(6, 157, 56, 0.432);
+    border-radius: 50%;
+   /* gap:px; */
+    
+ }
+ .nav{
+    background-color: blue;
+ }
+ .home{
+    /* /margin-top:40px; */
+    padding:100px  9% 0;
+ }
+ .info h1,
+ .info h2,
+ .ifo p{line-height: 80px;
+
+ }
+ 
