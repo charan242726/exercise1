@@ -252,11 +252,13 @@ li:hover a, li.active a {
 .sidebar ul {
   list-style: none;
   padding: 20px;
+  display:flex;
+  flex-direction: column;
 }
 
 .sidebar ul li {
   margin: 15px 0;
-  border: 1px solid #7cf03d; 
+  border-bottom: 1px solid #7cf03d; 
   border-radius: 5px; 
   transition: background 0.3s; 
 }
