@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" class="css">
-    <!-- <link href='<LINK_TO_DOWNLOADED_FONT_CSS>' rel='stylesheet'> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
 </head>
-
 <body>
-    <nav class="navbar">
-        <a href="/" class="logo">portfolio</a>
-        <ul class"list">
-            <li><a href="profile.html" class="" active>Profile</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contacts.html">Contacts</a></li>
-        </ul>
-        <!-- <hr> -->
-    </nav>
+  <nav class="navbar">
+    <a href="/" class="logo">portfolio</a>
+    <div class="menu-icon" onclick="toggleSidebar()">
+      <i class="fa fa-bars"></i>
+    </div>
+    <ul class="list">
+      <li><a href="profile.html" class="active">Profile</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contacts.html">Contacts</a></li>
+    </ul>
+  </nav>
 
-    <section class="home">
-        <div class="info">
-            <h1> charan</h1>
-            <h2>I am a student</h2>
-            <p>a passion for learning programming . Every day, I strive to learn, grow, and challenge myself in the
-                pursuit of knowledge. My journey is fueled by curiosity, determination, and the vision of a brighter
-                future.
-            </p>
-            <div class="button">
-                <a href="resume.html" class="btn">download cv</a>
-                <div class="sci">
-                    <a href="www.instagram.com"><img src="insta.png" height="25" " </a>
-    <a href="www.linkedin.com"><img src=" linkedin.png" height="25px"></a>
-                    <a href="www.github.com"><img src="github.png" height="25px"></a>
-                    <!-- <a href=""></a> -->
-                </div>
-            </div>
-            <div class="img-box">
-                <div class="img-item">
-                    <!-- <img src="img.jpg"  alt="charan" class="img"> -->
-                </div>
-            </div>
+  <div class="sidebar" id="sidebar">
+    <button class="close-btn" onclick="toggleSidebar()">×</button>
+    <ul class="list">
+      <li><a href="contacts.html">Contacts</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="profile.html" class="active">Profile</a></li>
+    </ul>
+  </div>
+
+  <section class="home">
+    <div class="left">
+      <div class="img">
+        <img src="img1.jpg" alt="my image">
+      </div>
+    </div>
+    <div class="right">
+      <div class="info">
+        <h1>Charan</h1>
+        <h2>I am a student</h2>
+        <p>A passion for learning programming. Every day, I strive to learn, grow, and challenge myself in the pursuit of knowledge. My journey is fueled by curiosity, determination, and the vision of a brighter future.</p>
+        <div class="button">
+          <a href="resume.html" class="btn">Download CV</a>
+          <div class="sci">
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
 </body>
-
 </html>
