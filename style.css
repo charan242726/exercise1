@@ -219,7 +219,8 @@ li:hover a, li.active a {
   font-size: 30px;
   cursor: pointer;
   color: white;
-  display: none;
+  display: none; 
+}
 
 .sidebar {
   position: fixed;
@@ -234,7 +235,7 @@ li:hover a, li.active a {
 }
 
 .sidebar.active {
-  right: 0;
+  right: 0; 
 }
 
 .sidebar .close-btn {
@@ -275,7 +276,7 @@ li:hover a, li.active a {
 
 @media (max-width: 768px) {
   .menu-icon {
-    display: block; 
+    display: block;
   }
 
   .navbar .list {
@@ -289,12 +290,12 @@ li:hover a, li.active a {
 
   .left, .right {
     width: 100%; 
-    text-align: center; 
+    text-align: center;
   }
 
   .img {
     width: 80%; 
-    height: auto; 
+    height: auto;
   }
 
   .img img {
@@ -317,7 +318,7 @@ li:hover a, li.active a {
   }
 
   .sci a:hover {
-    color: #7cf03d;
+    color: #7cf03d; 
   }
 }
 
@@ -328,7 +329,7 @@ li:hover a, li.active a {
   }
 
   .navbar .list {
-    display: flex; 
+    display: flex;
   }
 }
 
@@ -363,5 +364,3 @@ body {
     border-color: #7cf03d;
   }
 }
-
-
